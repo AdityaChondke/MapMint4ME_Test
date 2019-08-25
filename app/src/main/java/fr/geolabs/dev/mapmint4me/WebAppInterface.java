@@ -570,10 +570,32 @@ public class WebAppInterface {
     }
 
     @JavascriptInterface
-    public void startWelcomeScreen(){
-        ((MapMint4ME) mContext).launchWelcomeScreen();
-        ((MapMint4ME) mContext).finish();
+
+    public void startWelcomeScreen(String s) {
+
+        if (s.equals("scale")) {
+
+            ((MapMint4ME) mContext).launchWelcomeScreen2();
+            ((MapMint4ME) mContext).finish();
+        }
+        if (s.equals("draw")) {
+
+            ((MapMint4ME) mContext).launchWelcomeScreen3();
+            ((MapMint4ME) mContext).finish();
+        }
+        if (s.equals("cloud")) {
+
+            ((MapMint4ME) mContext).launchWelcomeScreen4();
+            ((MapMint4ME) mContext).finish();
+        }
+        if (s.equals("help")) {
+            ((MapMint4ME) mContext).launchWelcomeScreen();
+            ((MapMint4ME) mContext).finish();
+        }
     }
+
+
+
 
     @JavascriptInterface
     public void keepScreenOn(){

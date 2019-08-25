@@ -20,8 +20,10 @@ if(lang=="fr"){
 }
 
 
-function loadWelcome(){
-    window.Android.startWelcomeScreen("help");
+
+
+function loadWelcome4(){
+    window.Android.startWelcomeScreen("cloud");
 }
 
 /*****************************************************************************

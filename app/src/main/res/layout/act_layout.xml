@@ -100,7 +100,7 @@ android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Line Width"
-        android:textColor="@android:color/darker_gray" />
+        android:textColor="@color/cast_expanded_controller_text_color" />
 
     <SeekBar
         android:id="@+id/lineWidth"
@@ -113,7 +113,8 @@ android:id="@+id/content"
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Distance Scale" />
+        android:text="Distance Scale"
+        android:textColor="@color/cast_expanded_controller_text_color" />
 
     <SeekBar
         android:id="@+id/distanceScale"
@@ -126,7 +127,8 @@ android:id="@+id/content"
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Smoothing" />
+        android:text="Smoothing"
+        android:textColor="@color/cast_expanded_controller_text_color" />
 
     <SeekBar
         android:id="@+id/smoothingSeekBar"
